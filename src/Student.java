@@ -25,7 +25,8 @@ public class Student{
         System.out.println( name +" you are "+age +"years old");
     }
     public void  feebalance(){
-       int 
+       int  feebalance= 50000-feeBal;
+       System.out.println("your remaining fee balance is " +feebalance);
 
     }
     public void gradYr(){
@@ -37,5 +38,6 @@ public class Student{
         Student s1=new Student();
         s1.getAge();
         s1.gradYr();
+        s1.feebalance();
     }
 }
